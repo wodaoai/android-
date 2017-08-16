@@ -1,0 +1,10 @@
+1.下载并安装夜神模拟器，夜神模拟器官网下载 www.bignox.com
+2.先启动夜神模拟器
+3然后运行cmd命令，cd到夜神安装bin目录，执行命令
+nox_adb.exe connect 127.0.0.1:62001
+连接到模拟器
+4.也可以保存成bat执行如下
+d:                                      #切换到安装目录磁盘
+cd D:\Program Files (x86)\Nox\bin\      #打开到安装
+nox_adb.exe connect 127.0.0.1:62001     #执行脚本
+pause
